@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  background-color: white;
+}
+
+.header_note h1 {
+  color: blueviolet;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header_logo {
+  align-self: flex-end;
+  font-family: var(--font-family);
+  color: #6070ff;
+  width: 40px;
+  height: 30px;
+}
+
+.body_box {
+  height: 93vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro {
+  margin-top: 17%;
+  margin-left: 25%;
+  color: rgb(11, 1, 1);
+  font: bolder;
+  font-size: 30px;
+  font-family: var(--font-family);
+}
+
+.para {
+  font-family: var(--font-family);
+  font-size: 18px;
+  margin-left: 25%;
+}
+
+.buttom {
+  margin-left: 25%;
+}
+
+.link {
+  font-family: var(--font-family);
+  color: #7f8cff;
+}
+
+.link:hover {
+  color: black;
+}
+
+.menu_items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu_items li {
+  padding: 10%;
+  display: inline;
+}
+
+.header_logo svg {
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 767px) {
+  .menu_items {
+    display: none;
+  }
+
+  body {
+    background-image: url(mobi2.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .header_logo {
+    display: none;
+  }
+
+  .menu_items {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu_items li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  body {
+    background-image: url(pc2.png);
+    background-size: cover;
+  }
+}
+
+.menu_items a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.a:hover {
+  background-color: darkorange;
+}
+
+.b:hover {
+  background-color: darkorange;
+}
+
+.c:hover {
+  background-color: darkorange;
+}
+
+.d:hover {
+  background-color: darkorange;
+}
+
+.e:hover {
+  background-color: darkorange;
+}
+
+.menus {
+  text-decoration: none;
+}
