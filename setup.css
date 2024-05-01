@@ -4,8 +4,8 @@
   justify-content: space-between;
   height: 7vh;
   background-color: white;
-}
 
+}
 .header_note h1 {
   color: blueviolet;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,8 +15,8 @@
   align-self: flex-end;
   font-family: var(--font-family);
   color: #6070ff;
-  width: 40px;
-  height: 30px;
+  width: 110%;
+  height: 150%;
 }
 
 .body_box {
@@ -30,13 +30,13 @@
   margin-left: 25%;
   color: rgb(11, 1, 1);
   font: bolder;
-  font-size: 30px;
+  font-size: 200%;
   font-family: var(--font-family);
 }
 
 .para {
   font-family: var(--font-family);
-  font-size: 18px;
+  font-size: 120%;
   margin-left: 25%;
 }
 
@@ -83,17 +83,14 @@
   .header_logo {
     display: none;
   }
-
   .menu_items {
     display: flex;
     justify-content: flex-end;
   }
-
   .menu_items li {
     display: block;
-    margin: 10px 0;
+    margin: 10% 0;
   }
-
   body {
     background-image: url(pc2.png);
     background-size: cover;
