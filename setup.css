@@ -4,8 +4,8 @@
   justify-content: space-between;
   height: 7vh;
   background-color: white;
-
 }
+
 .header_note h1 {
   color: blueviolet;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -83,14 +83,17 @@
   .header_logo {
     display: none;
   }
+
   .menu_items {
     display: flex;
     justify-content: flex-end;
   }
+
   .menu_items li {
     display: block;
     margin: 10% 0;
   }
+
   body {
     background-image: url(pc2.png);
     background-size: cover;
