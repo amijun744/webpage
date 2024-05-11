@@ -77,63 +77,62 @@
     background-image: url(mobi2.png);
     background-size: cover;
   }
+
   .op1 {
     display: flex;
     justify-content: space-between;
-    
     width: 70%;
     list-style-type: none;
     margin-left: 7%;
     margin-top: -3%;
     padding-left: 0%;
   }
-  .op1 a{
+
+  .op1 a {
     text-decoration: none;
   }
-  .language{
-   
+
+  .language {
     display: flex;
     justify-content: space-between;
     width: 60%;
     list-style-type: none;
     margin-left: 5%;
-    margin-top:10%;
-  
+    margin-top: 10%;
   }
-  .language a{
+
+  .language a {
     text-decoration: none;
-    background-color: #EBEBFF;
+    background-color: #ebebff;
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
     color: blueviolet;
-    
   }
-  .title1 h1{
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 32px;
-  color: #172b4d;
-  
-  margin-left: 5%;
-  margin-top:10px;
-  
+
+  .title1 h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: #172b4d;
+    margin-left: 5%;
+    margin-top: 10px;
   }
-  .first p{
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 20px;
-  color: #344563;
-  
-  margin-left: 7%;
-  margin-top: 5px;
-  
+
+  .first p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #344563;
+    margin-left: 7%;
+    margin-top: 5px;
   }
-  .image1{
+
+  .image1 {
     margin-left: 2%;
-  
   }
-  .btn1{
+
+  .btn1 {
     border: 1px solid #6070ff;
     border-radius: 8px;
     padding: 12px;
@@ -149,169 +148,178 @@
     margin-left: 7%;
     margin-top: 8%;
   }
-  .image2{
+
+  .image2 {
     margin-left: 2%;
-    margin-top:30%;
+    margin-top: 30%;
   }
-  
-   
-  .image3{
+
+  .image3 {
     margin-left: 2%;
-    margin-top:30%;
+    margin-top: 30%;
   }
-  .image4{
+
+  .image4 {
     margin-left: 2%;
-    margin-top:30%;
+    margin-top: 30%;
   }
-  .title5 h1{
+
+  .title5 h1 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 42px;
     color: #172b4d;
-    
     margin-left: 5%;
     margin-top: 30%;
   }
-  .fifth p{
+
+  .fifth p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     color: #344563;
-    
     margin-left: 7%;
     margin-top: 5px;
-    
-    }
-    .lets {
-      font-family: var(--font-family);
-      color: #7f8cff;
-      margin-left: 7%;
-  
-    }
-    
-    .lets:hover {
-      color: black;
-    }
-    .socials2{
-      margin-left: 7%;
-    }
-    .btn5{
-      border: 1px solid #6070ff;
-      border-radius: 8px;
-      padding: 12px;
-      width: 156px;
-      height: 48px;
-      font-family: var(--font-family);
-      font-weight: 500;
-      font-size: 17px;
-      line-height: 141%;
-      letter-spacing: 0.03em;
-      text-align: center;
-      color: #396df2;
-      margin-left: 7%;
-      margin-top: 8%;
   }
-  .last{
+
+  .lets {
+    font-family: var(--font-family);
+    color: #7f8cff;
+    margin-left: 7%;
+  }
+
+  .lets:hover {
+    color: black;
+  }
+
+  .socials2 {
+    margin-left: 7%;
+  }
+
+  .btn5 {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    width: 156px;
+    height: 48px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 141%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #396df2;
+    margin-left: 7%;
+    margin-top: 8%;
+  }
+
+  .last {
     display: flex;
-    
     justify-content: space-between;
     margin-top: 5%;
   }
-  .last h4{
+
+  .last h4 {
     font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  color: #000;
-  margin-left: 7%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-left: 7%;
   }
-  .js{
+
+  .js {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-top:5%;
+    margin-top: 5%;
     border-radius: 8px;
-    width: 303px;
     height: 66px;
     background: #f7f7f9;
   }
-  .html{
+
+  .html {
     display: flex;
-    margin-top:5%;
+    margin-top: 5%;
     justify-content: space-between;
     width: 80%;
     border-radius: 8px;
-    width: 303px;
     height: 66px;
     background: #f7f7f9;
   }
-  .css{
+
+  .css {
     display: flex;
-    margin-top:5%;
+    margin-top: 5%;
     justify-content: space-between;
     width: 80%;
     border-radius: 8px;
-    width: 303px;
     height: 66px;
     background: #f7f7f9;
-    
   }
-  .lang5{
+
+  .lang5 {
     list-style-type: none;
   }
-  .last2{
+
+  .last2 {
     display: flex;
-    
     justify-content: space-between;
     margin-top: 5%;
   }
-  .last3{
+
+  .last3 {
     display: flex;
-    
     justify-content: space-between;
     margin-top: 5%;
   }
-  .last2 h4{
+
+  .last2 h4 {
     font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  color: #000;
-  margin-left: 7%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-left: 7%;
   }
-  .last3 h4{
+
+  .last3 h4 {
     font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  color: #000;
-  margin-left: 7%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-left: 7%;
   }
-  .firs{
-   
+
+  .firs {
     border: 1px solid #dfe1e6;
-     border-radius: 16px;
-     margin-top: 30%;
+    border-radius: 16px;
+    margin-top: 30%;
   }
-  .second{
+
+  .second {
     border: 1px solid #dfe1e6;
-     border-radius: 16px;
-     margin-top: 30%;
+    border-radius: 16px;
+    margin-top: 30%;
   }
-  .third{
+
+  .third {
     border: 1px solid #dfe1e6;
-     border-radius: 16px;
-     margin-top: 30%;
+    border-radius: 16px;
+    margin-top: 30%;
   }
-  .fourth{
+
+  .fourth {
     border: 1px solid #dfe1e6;
-     border-radius: 16px;
-     margin-top: 30%;
+    border-radius: 16px;
+    margin-top: 30%;
   }
-  .fift{
-      border: 1px solid #dfe1e6;
-       border-radius: 16px;
-       margin-top: 30%;
+
+  .fift {
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-top: 30%;
   }
 }
 
@@ -364,5 +372,3 @@
 .menus {
   text-decoration: none;
 }
-
-
