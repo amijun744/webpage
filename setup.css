@@ -296,30 +296,105 @@
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 30%;
+    background-color: white;
   }
 
   .second {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 30%;
+    background-color: white;
   }
 
   .third {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 30%;
+    background-color: white;
   }
 
   .fourth {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 30%;
+    background-color: white;
   }
 
   .fift {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 30%;
+    background-color: white;
+  }
+
+  .week3 {
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-top: 30%;
+    background-image: url(/image/back.png);
+    height: 60%;
+  }
+
+  .tit {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .par {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  form {
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 2%;
+    margin-top: 5%;
+  }
+
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 85%;
+    padding: 8%;
+    margin-top: 5%;
+  }
+
+  input[type="submit"] {
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 40%;
+    border-radius: 15%;
+    padding: 3%;
+    color: blue;
+  }
+
+  .week2 {
+    background-color: oldlace;
   }
 }
 
