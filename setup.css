@@ -332,7 +332,7 @@
     border-radius: 16px;
     margin-top: 30%;
     background-image: url(/image/back.png);
-    height: 60%;
+    height: 140%;
   }
 
   .tit {
@@ -396,6 +396,26 @@
   .week2 {
     background-color: oldlace;
   }
+
+  .son {
+    width: 92%;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .img2 {
+    width: 100%;
+  }
+
+  .img3 {
+    width: 100%;
+  }
+
+  .img4 {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -410,12 +430,138 @@
 
   .menu_items li {
     display: block;
-    margin: 10% 0;
+    margin: 10%;
   }
 
   .week1 {
     background-image: url(pc2.png);
     background-size: cover;
+  }
+
+  .firs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+  }
+
+  .second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+  }
+
+  .third {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+  }
+
+  .fourth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+  }
+
+  .fift {
+    margin-top: 15%;
+    display: flex;
+  }
+
+  .op1 a {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img {
+    width: 150%;
+    height: 100%;
+  }
+
+  .else {
+    padding-left: 20%;
+    margin-left: 10%;
+  }
+
+  .image2 {
+    margin-top: 2%;
+  }
+
+  .img2 {
+    width: 150%;
+    height: 100%;
+  }
+
+  .image3 {
+    margin-top: 2%;
+  }
+
+  .img3 {
+    width: 150%;
+    height: 100%;
+  }
+
+  .image4 {
+    margin-top: 2%;
+  }
+
+  .img4 {
+    width: 150%;
+    height: 100%;
+  }
+
+  .side {
+    margin-top: 0%;
+    width: 45%;
+  }
+
+  .side2 {
+    width: 60%;
+    margin-top: 7%;
+    margin-left: 0%;
+  }
+
+  .language5 ul {
+    display: flex;
+  }
+
+  .js {
+    display: inline;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 8px;
+    height: 96px;
+    background: #f7f7f9;
+  }
+
+  .html {
+    display: inline;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 8px;
+    height: 96px;
+    background: #f7f7f9;
+  }
+
+  .css {
+    display: inline;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 8px solid red;
+    height: 96px;
+    background: #f7f7f9;
+  }
+
+  .lang5 {
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .week3 {
+    border: 1px  #dfe1e6;
+    border-radius: 16px;
+    margin-top: 10%;
+    background-image: url(image/back.png);
+    height: 800px;
   }
 }
 
