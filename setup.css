@@ -11,7 +11,10 @@
   display: none;
   flex-direction: column;
 }
-
+.error-message {
+  color: rgb(12, 231, 74);
+  margin-bottom: 10px;
+}
 .menu_items li {
   padding: 10%;
   display: inline;
@@ -386,6 +389,7 @@
     border-radius: 16px;
     margin-top: 30%;
     background-image: url(/image/back.png);
+    background-repeat: no-repeat;
     height: 110vh;
   }
 
@@ -607,8 +611,10 @@
     border: 1px  #dfe1e6;
     border-radius: 16px;
     margin-top: 10%;
-    background-image: url(image/back.png);
+    background-image: url(image/lasto.png);
+    background-color: #396df2;
     height: 120vh;
+    border-top-left-radius: 15%;
   }
 
   .title1 {

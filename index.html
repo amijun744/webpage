@@ -288,10 +288,28 @@
          <input type="text" id="name" name="name" maxlength="30" placeholder="Enter your name" required>
          <input type="email" id="email" name="email" placeholder="Enter your email" required>
          <textarea id="message" name="message" maxlength="500" placeholder="Write your message here" required></textarea>
+         <div id="error-message" class="error-message"></div>
          <input type="submit" value="GET in touch">
      </form>
  </div>
 </section>
  </body>
  </head>
+ <script>
+    const form = document.getElementById('form');
+    const emailInput = document.getElementById('email');
+    const errorMessage = document.getElementById('error-message');
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const email = emailInput.value;
+
+        if (email === email.toLowerCase()) {
+            form.submit();
+        } else {
+            errorMessage.textContent = 'Please enter your email in lowercase.';
+        }
+    });
+</script>
  </html>
