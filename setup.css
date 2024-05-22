@@ -11,10 +11,12 @@
   display: none;
   flex-direction: column;
 }
+
 .error-message {
   color: rgb(12, 231, 74);
   margin-bottom: 10px;
 }
+
 .menu_items li {
   padding: 10%;
   display: inline;
